@@ -17,13 +17,7 @@ This project addresses systemic operational bottlenecks and severe Service Level
 
 ## Technical Architecture & Pipeline
 
-  Raw Onboarding Logs  --->   SQL Data Pipeline      --->   DAX Modeling & Risk   
- (5,000 Case Records)       (Aggregation & Staging)        (Calculated Measures)  
-|
-v
-
- Power BI Dashboard 
- (Executive View)   
+`Raw Onboarding Logs (5,000 Records)` $\rightarrow$ `SQL Data Pipeline` $\rightarrow$ `DAX Modeling & Risk Engine` $\rightarrow$ `Power BI Dashboard`
 
 
 ### Stack & Tools
